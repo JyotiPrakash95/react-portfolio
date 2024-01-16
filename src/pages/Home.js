@@ -105,9 +105,9 @@ export default function Home() {
                 href="/images/Jyoti Prakash-Frontend-dev-Dec-2023-CV.pdf"
                 download="Jyoti Prakash CV"
                 // target="-blank"
-                class="flex gap-3 cursor-pointer text-white font-sem text-lg ibold bg-gradient-to-r from-gray-800 to-black px-10 py-4 rounded-xl border border-gray-600 hover:scale-105 duration-200 hover:text-gray-300 hover:border-gray-800 hover:from-black hover:to-gray-900 shadow-btn"
+                class="flex gap-3 cursor-pointer text-white font-semibold font-sem text-lg ibold bg-gradient-to-r from-gray-800 to-black px-10 py-4 rounded-xl border border-gray-600 hover:scale-105 duration-200 hover:text-gray-300 hover:border-gray-800 hover:from-black hover:to-gray-900 shadow-btn"
               >
-                Resume
+                Download CV
               </a>
             </div>
           </div>

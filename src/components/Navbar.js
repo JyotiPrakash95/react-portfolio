@@ -10,17 +10,9 @@ function Navbar() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <NavLink to="/" className="-m-1.5 p-1.5 font-medium text-xl">
+            <NavLink to="/" className="-m-1.5 p-1.5 font-semibold text-xl">
               <span className="sr-only">Your Company</span>
-              {/* <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              /> */}
-              <div
-                className="outer-box p-5 transition duration-150 -z-10 ease-out md:ease-in border-double border-4 animate-pulse absolute inline-flex h-16 w-16 rounded-full shadow-xl  shadow-indigo-900 opacity-85 top-4 -left-4 translate-x-1/4
-            "
-              ></div>
+              <div className="outer-box p-5 transition duration-150 -z-10 ease-out md:ease-in border-double border-4 animate-pulse absolute inline-flex h-16 w-16 rounded-full shadow-xl  shadow-indigo-900 opacity-85 top-4 -left-4 translate-x-1/4"></div>
               Jyoti Prakash.
             </NavLink>
           </div>
