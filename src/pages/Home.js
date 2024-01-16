@@ -105,29 +105,10 @@ export default function Home() {
                 href="/images/Jyoti Prakash-Frontend-dev-Dec-2023-CV.pdf"
                 download="Jyoti Prakash CV"
                 // target="-blank"
-                class="flex gap-3 cursor-pointer text-white text-3xl font-semibold bg-gradient-to-r from-gray-800 to-black px-10 py-4 rounded-xl border border-gray-600 hover:scale-105 duration-200 hover:text-gray-300 hover:border-gray-800 hover:from-black hover:to-gray-900 shadow-btn"
+                class="flex gap-3 cursor-pointer text-white font-sem text-lg ibold bg-gradient-to-r from-gray-800 to-black px-10 py-4 rounded-xl border border-gray-600 hover:scale-105 duration-200 hover:text-gray-300 hover:border-gray-800 hover:from-black hover:to-gray-900 shadow-btn"
               >
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                  class="w-7 inline-block mb-1 fill-white	"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg> */}
                 Resume
               </a>
-              {/* <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                Learn more <span aria-hidden="true">→</span>
-              </a> */}
             </div>
           </div>
         </div>
