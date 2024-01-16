@@ -38,11 +38,13 @@ export default function Contact() {
                       className="p-4 w-full m-2 bg-white rounded-md border-0 outline-none"
                       placeholder="Name"
                       name="name"
+                      required
                     />
                     <input
                       className="p-4 m-2 w-full border-0 bg-white rounded-md outline-none"
                       placeholder="Email"
                       name="email"
+                      required
                     />
                     <textarea
                       className="p-4 m-2 w-full max-h-full border-0 bg-white rounded-md outline-none"
