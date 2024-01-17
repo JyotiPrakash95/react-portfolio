@@ -23,8 +23,8 @@ export default function Menu() {
         leaveTo="opacity-0 translate-y-1"
       >
         <Popover.Panel className="absolute right-0 lg:left-1/2 z-10 mt-5 flex w-screen max-w-max lg:-translate-x-3/4 px-4 sm:-translate-x-3/4">
-          <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5 ">
-            <div className="p-4">
+          <div className="max-w-md w-11/12 flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5 ">
+            <div className="p-2">
               {/* NavLinks */}
               <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
                 <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
@@ -41,7 +41,7 @@ export default function Menu() {
                     About
                     <span className="absolute inset-0" />
                   </NavLink>
-                  <p className="mt-1 text-gray-600 lg:text-lg">
+                  <p className="mt-1 text-gray-600 text-base">
                     Learn more about me
                   </p>
                 </div>
@@ -62,7 +62,7 @@ export default function Menu() {
                     Project
                     <span className="absolute inset-0" />
                   </NavLink>
-                  <p className="mt-1 text-gray-600 lg:text-lg">
+                  <p className="mt-1 text-gray-600 text-base">
                     Check my recent work
                   </p>
                 </div>
@@ -83,7 +83,7 @@ export default function Menu() {
                     Contact
                     <span className="absolute inset-0" />
                   </NavLink>
-                  <p className="mt-1 text-gray-600 lg:text-lg">
+                  <p className="mt-1 text-gray-600 text-base">
                     Feel free to connect
                   </p>
                 </div>

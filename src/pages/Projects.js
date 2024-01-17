@@ -152,9 +152,9 @@ const ProjectCard = ({ title, description, link, stack, image }) => (
     href={link}
     target="_blank"
     rel="noopener noreferrer"
-    className="p-5 rounded-xl"
+    className="p-2 sm:p-5 rounded-xl"
   >
-    <div className="flex relative w-full" style={{ height: "280px" }}>
+    <div className="flex relative w-full lg:h-80">
       <img
         alt="gallery"
         className="absolute inset-0 w-full h-full object-contain bg-white object-center rounded-xl border-2 border-s-slate-200"
@@ -164,13 +164,15 @@ const ProjectCard = ({ title, description, link, stack, image }) => (
         className="px-8 py-10 relative h-full w-full border-2 shadow-xl shadow-indigo-600 rounded-xl bg-zinc-800 opacity-0 hover:opacity-100 transition-opacity duration-500"
         style={{ height: "100%" }}
       >
-        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1 mt-8">
+        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1 mt-0 sm:mt-8 ">
           {stack}
         </h2>
         <h1 className="title-font text-lg font-medium text-white mb-3">
           {title}
         </h1>
-        <p className="leading-relaxed text-slate-200">{description}</p>
+        <p className="leading-relaxed text-slate-200 lg:block hidden">
+          {description}
+        </p>
       </div>
     </div>
   </a>

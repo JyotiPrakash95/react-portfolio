@@ -30,10 +30,10 @@ export default function Contact() {
               Contact
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">Say Hello..</p>
-            <div className="w-6/6 bg-indigo-300 bg-opacity-15 ml-auto mr-auto mt-10 lg:p-7 sm:p-2">
+            <div className="w-6/6 bg-indigo-300 bg-opacity-15 ml-auto mr-auto mt-10 lg:p-7 p-4 sm:p-2">
               <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
                 <div className="col-span-1 xl:col-span-2 rounded-3xl">
-                  <form className="flex flex-col items-center md:p-0">
+                  <form className="flex flex-col items-center sm:p-0">
                     <input
                       className="p-4 w-full m-2 bg-white rounded-md border-0 outline-none"
                       placeholder="Name"
@@ -60,41 +60,46 @@ export default function Contact() {
                     />
                   </form>
                 </div>
-                <div className="rounded-3xl col-span-1 m-2 xl:m-0 p-5 bg-gray-50 flex flex-col justify-between">
+                <div className="rounded-3xl col-span-1 xl:m-0 p-4 bg-gray-50 flex flex-col justify-between mt-4">
                   <div>
-                    <h3 className="text-3xl font-bold mb-8">Contact Details</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold mb-8 mt-4">
+                      Contact Details
+                    </h3>
                     <div className="lg:w-3/4 ml-auto mr-auto">
                       <PhoneIcon
-                        className="h-6 w-6 ml-2 text-gray-600 group-hover:text-indigo-600 float-left"
+                        className="h-6 w-6 ml-4 mt-1 text-gray-600 group-hover:text-indigo-600 float-left"
                         aria-hidden="true"
                       />
-                      <a href="" className="mt-5 font-normal text-xl">
+                      <a
+                        href=""
+                        className="mt-5 font-normal sm:text-xl text-base mr-6 sm:mr-2"
+                      >
                         +917678451737
                       </a>
                     </div>
                     <div className="ml-auto mr-auto mt-4">
                       <EnvelopeIcon
-                        className="h-6 w-6 pt-2 text-gray-600 group-hover:text-indigo-600 float-left"
+                        className="w-6 h-6 pt-2 ml-0 sm:ml-2 sm:w-7 sm:h-7 text-gray-600 group-hover:text-indigo-600 float-left"
                         aria-hidden="true"
                       />
                       <a
                         href="mailto:jyotiprakash0737@gmail.com"
-                        className="mt-5 font-normal text-xl"
+                        className="mt-5 font-normal sm:text-xl text-base"
                       >
                         jyotiprakash0737@gmail
                       </a>
                     </div>
-                    <div className="lg:w-3/4 ml-auto mr-auto">
+                    <div className="lg:w-3/4 mr-auto ml-6 sm:ml-auto">
                       <MapPinIcon
                         className="h-6 w-6 ml-2 text-gray-600 group-hover:text-indigo-600 float-left"
                         aria-hidden="true"
                       />
-                      <p className="mt-5 font-normal text-xl">
+                      <p className="mt-5 font-normal sm:text-xl text-base mr-4">
                         New Delhi India
                       </p>
                     </div>
                   </div>
-                  <div className="w-60 ml-auto mr-auto mt-16">
+                  <div className="ml-auto w-48 sm:w-60 mr-auto mt-16 mb-4">
                     <ul className="bg-gray-100 flex items-center justify-center p-1 rounded-3xl shadow-sm mt-5">
                       <a
                         className="p-2"
