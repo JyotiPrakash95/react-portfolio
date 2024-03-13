@@ -50,7 +50,7 @@ export default function About() {
                     </p>
                   </div>
                   <a
-                    href="/images/Jyoti Prakash-Frontend-dev-Dec-2023-CV.pdf"
+                    href="/images/Jyoti-Prakash+Front-end-developer-2024-CV.pdf"
                     download="Jyoti Prakash CV"
                     className="relative font-semibold m-1 ml-auto mr-auto px-3 py-2 flex items-center justify-center bg-black opacity-95 hover:opacity-100 text-white lg:w-1/2 rounded-xl border border-gray-600 mt-8 hover:scale-105 duration-200 hover:text-gray-300 hover:border-gray-800 hover:from-black hover:to-gray-900 shadow-btn"
                   >
