@@ -25,10 +25,10 @@ export const data = [
     image: "/images/Blog.png",
   },
   {
-    title: "Get Window entity",
-    description: "This help you to get the screen resilution",
-    link: "https://get-screen-entity.vercel.app/",
-    stack: "React.js and Hooks",
-    image: "/images/Window-entity.png",
+    title: "Random Quote Machine",
+    description: "it's give different quote on every click",
+    link: "https://random-quotes-lovat.vercel.app/",
+    stack: "React.js, API and bootstrap",
+    image: "/images/Random-Quotes.png",
   },
 ];
